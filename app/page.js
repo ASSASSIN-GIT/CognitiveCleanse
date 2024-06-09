@@ -15,7 +15,7 @@ export default function comp() {
     playsInline
     className="absolute top-0 left-0 w-full h-full object-cover z-[0] blur-sm"
   >
-    <source src="/video1.mp4" type="video/mp4" />
+    <source src="./video1.mp4" type="video/mp4" />
   </video>
 
   <div className="container max-w-4xl px-4 py-12 mx-auto text-center z-[1]">
@@ -29,7 +29,7 @@ export default function comp() {
       <div className="flex justify-center space-x-4">
         <Link
           className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-[#805ad5] rounded-md shadow-sm hover:bg-[#6b46c1] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#805ad5]"
-          href="/dashboard"
+          href="./dashboard"
         >
           Get Started
         </Link>
@@ -56,7 +56,7 @@ export default function comp() {
               <div className="flex space-x-4">
                 <Link
                   className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-[#805ad5] rounded-md shadow-sm hover:bg-[#6b46c1] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#805ad5]"
-                  href="/cleanse"
+                  href="./cleanse"
                 >
                   Start Cleansing
                 </Link>
@@ -73,7 +73,7 @@ export default function comp() {
                 alt="Cognitive Cleanse"
                 className="w-full h-auto rounded-md"
                 height={400}
-                src="/1.jpg"
+                src="./1.jpg"
                 style={{
                   aspectRatio: "600/400",
                   objectFit: "cover",
@@ -145,7 +145,7 @@ export default function comp() {
               <div className="mt-4">
                 <Link
                   className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-[#805ad5] rounded-md shadow-sm hover:bg-[#6b46c1] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#805ad5]"
-                  href="/join"
+                  href="./join"
                 >
                   Join the Community
                 </Link>
@@ -163,7 +163,7 @@ export default function comp() {
               <div className="mt-4">
                 <Link
                   className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-[#805ad5] rounded-md shadow-sm hover:bg-[#6b46c1] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#805ad5]"
-                  href="/support"
+                  href="./support"
                 >
                   Get Personal Support
                 </Link>

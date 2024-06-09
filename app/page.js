@@ -29,7 +29,7 @@ export default function comp() {
       <div className="flex justify-center space-x-4">
         <Link
           className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-[#805ad5] rounded-md shadow-sm hover:bg-[#6b46c1] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#805ad5]"
-          href="./dashboard"
+          href="/dashboard"
         >
           Get Started
         </Link>
@@ -56,7 +56,7 @@ export default function comp() {
               <div className="flex space-x-4">
                 <Link
                   className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-[#805ad5] rounded-md shadow-sm hover:bg-[#6b46c1] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#805ad5]"
-                  href="./cleanse"
+                  href="/cleanse"
                 >
                   Start Cleansing
                 </Link>
@@ -145,7 +145,7 @@ export default function comp() {
               <div className="mt-4">
                 <Link
                   className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-[#805ad5] rounded-md shadow-sm hover:bg-[#6b46c1] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#805ad5]"
-                  href="./join"
+                  href="/join"
                 >
                   Join the Community
                 </Link>
@@ -163,7 +163,7 @@ export default function comp() {
               <div className="mt-4">
                 <Link
                   className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium text-white bg-[#805ad5] rounded-md shadow-sm hover:bg-[#6b46c1] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#805ad5]"
-                  href="./support"
+                  href="/support"
                 >
                   Get Personal Support
                 </Link>
